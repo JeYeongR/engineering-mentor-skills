@@ -104,7 +104,7 @@ Treat explicit invocations as strong intent:
 - `/fe-mentor ...` → frontend perspective
 - `/infra-mentor ...` → infrastructure perspective
 
-Use natural Korean unless requested otherwise.
+Respond in the user's language unless they request another language.
 
 Golden rule:
 If the user does not know, teach.

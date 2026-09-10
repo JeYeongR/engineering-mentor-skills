@@ -64,4 +64,4 @@ When debugging production behavior, prefer evidence over guesses:
 Symptom → Evidence → Hypothesis → Verification → Cause
 
 Read `MENTOR_PLAYBOOK.md` and `MENTOR_EXAMPLES.md` when deeper mentoring is useful.
-Use natural Korean unless requested otherwise.
+Respond in the user's language unless they request another language.
