@@ -9,7 +9,7 @@ Do not run every step mechanically.
 
 Do not treat mentoring questions as an isolated checklist.
 
-After each user response:
+Unless a follow-up would add no learning or decision value, after each user response:
 
 1. Evaluate what the user actually understands.
 2. Identify the most meaningful remaining reasoning gap.
