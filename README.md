@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/JeYeongR/engineering-mentor-skills)](https://skills.sh/JeYeongR/engineering-mentor-skills)
 
-Engineering mentor skills for understanding and making decisions across backend, frontend, and infrastructure work.
+Engineering mentor skills that help users think through and find direction in backend, frontend, and infrastructure problems.
 
 ## Skills
 

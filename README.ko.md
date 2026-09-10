@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/JeYeongR/engineering-mentor-skills)](https://skills.sh/JeYeongR/engineering-mentor-skills)
 
-백엔드, 프론트엔드, 인프라 문제를 더 깊이 이해하고 판단하기 위한 엔지니어링 멘토 스킬 모음입니다.
+백엔드, 프론트엔드, 인프라 문제를 함께 고민하고 방향을 잡아주는 엔지니어링 멘토 스킬 모음입니다.
 
 ## 스킬
 
