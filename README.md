@@ -4,14 +4,14 @@
 
 [![skills.sh](https://skills.sh/b/JeYeongR/engineering-mentor-skills)](https://skills.sh/JeYeongR/engineering-mentor-skills)
 
-A shared engineering mentor pack for Claude Code and Codex.
+Engineering mentor skills for understanding and making decisions across backend, frontend, and infrastructure work.
 
 ## Skills
 
-- `/mentor` — automatic cross-domain router
-- `/be-mentor` — backend
-- `/fe-mentor` — frontend
-- `/infra-mentor` — infrastructure
+- `/mentor` — The entry point for questions that span one or more domains. It combines backend, frontend, and infrastructure perspectives for architecture, debugging, performance, and design decisions.
+- `/be-mentor` — Covers Java, Spring, JPA, databases, concurrency, transactions, messaging, and distributed systems. It weighs correctness, failure recovery, and operational consequences alongside implementation details.
+- `/fe-mentor` — Covers JavaScript/TypeScript, browsers, React, Next.js, rendering, state, and data fetching. It examines frontend work through user experience, accessibility, security, and performance.
+- `/infra-mentor` — Covers Linux, networking, Docker, Kubernetes, cloud, CI/CD, and observability. It considers failure modes, recovery, scalability, security, and cost in production environments.
 
 `/mentor` may combine multiple perspectives when the problem crosses boundaries, while prioritizing the engineering perspective explicitly requested by the user.
 

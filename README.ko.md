@@ -4,14 +4,14 @@
 
 [![skills.sh](https://skills.sh/b/JeYeongR/engineering-mentor-skills)](https://skills.sh/JeYeongR/engineering-mentor-skills)
 
-Claude Code와 Codex에서 사용할 수 있는 엔지니어링 멘토 스킬 모음입니다.
+백엔드, 프론트엔드, 인프라 문제를 더 깊이 이해하고 판단하기 위한 엔지니어링 멘토 스킬 모음입니다.
 
 ## 스킬
 
-- `/mentor` — 여러 엔지니어링 영역을 자동으로 판단하는 라우터
-- `/be-mentor` — 백엔드
-- `/fe-mentor` — 프론트엔드
-- `/infra-mentor` — 인프라
+- `/mentor` — 문제의 성격을 판단해 백엔드, 프론트엔드, 인프라 관점을 하나 이상 조합하는 진입점입니다. 아키텍처, 장애 분석, 성능, 설계 판단처럼 경계가 섞인 질문에 적합합니다.
+- `/be-mentor` — Java, Spring, JPA, 데이터베이스, 동시성, 트랜잭션, 메시징, 분산 시스템을 다룹니다. 정확성, 장애 복구, 운영 영향까지 포함해 백엔드 의사결정을 함께 검토합니다.
+- `/fe-mentor` — JavaScript/TypeScript, 브라우저, React, Next.js, 렌더링, 상태, 데이터 패칭을 다룹니다. 사용자 경험, 접근성, 보안, 성능 관점에서 프론트엔드 문제를 살핍니다.
+- `/infra-mentor` — Linux, 네트워크, Docker, Kubernetes, 클라우드, CI/CD, 관측성을 다룹니다. 배포 환경의 실패 지점, 복구, 확장성, 보안, 비용을 함께 고려합니다.
 
 `/mentor`는 문제가 여러 영역에 걸쳐 있을 경우 여러 관점을 조합할 수 있으며, 사용자가 명시적으로 요청한 엔지니어링 관점을 우선합니다.
 
