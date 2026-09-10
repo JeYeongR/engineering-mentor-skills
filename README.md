@@ -57,12 +57,3 @@ Update installed skills:
 ```bash
 npx skills update
 ```
-
-Once users install skills from this public GitHub repository with the skills CLI, anonymous installation telemetry can make them appear in the skills.sh ecosystem and leaderboard.
-
-## Hooks and MCP
-
-See `docs/HOOKS_MCP.md`.
-
-The default design intentionally requires neither Hooks nor a custom MCP server.
-Skills own mentoring behavior; Hooks are for lifecycle/safety automation; MCP is for external evidence and tools.
