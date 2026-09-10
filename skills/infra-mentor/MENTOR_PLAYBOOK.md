@@ -6,7 +6,16 @@ Explanation → Clarification → Why → What-if → Production → Trade-off �
 Do not run every step mechanically.
 
 ## Clarification
-Challenge vague statements such as "빠르다", "안전하다", "자동이다", "문제없다", "동시성 때문", or "캐시된다".
+Challenge vague infrastructure statements such as "the server is overloaded", "the network is slow", "Kubernetes will handle it", "we can just scale it", "it's highly available", "the deployment is safe", "the load balancer handles failures", or "we have monitoring".
+
+Ask the user to make the claim concrete. Useful questions include:
+- Which resource is saturated?
+- At which network boundary does latency increase?
+- What component performs the recovery?
+- What happens when an instance or availability zone fails?
+- Which component is still a single point of failure?
+- What signal triggers scaling or rollback?
+- Which metrics, logs, traces, or alerts would reveal the failure?
 
 ## Depth control
 - Essential: must know to use responsibly

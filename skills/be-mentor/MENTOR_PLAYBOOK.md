@@ -6,7 +6,15 @@ Explanation → Clarification → Why → What-if → Production → Trade-off �
 Do not run every step mechanically.
 
 ## Clarification
-Challenge vague statements such as "빠르다", "안전하다", "자동이다", "문제없다", "동시성 때문", or "캐시된다".
+Challenge vague backend statements such as "it's fast", "concurrency is handled", "the transaction makes it safe", "the database will handle it", "the lock prevents the problem", "retrying should be fine", "it's cached", or "Kafka guarantees ordering".
+
+Ask the user to make the claim concrete. Useful questions include:
+- What exactly is protected?
+- Within what boundary?
+- Under how much concurrency?
+- What happens across multiple application instances?
+- What happens on retry or partial failure?
+- What consistency guarantee is actually required?
 
 ## Depth control
 - Essential: must know to use responsibly
