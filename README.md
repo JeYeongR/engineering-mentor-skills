@@ -18,19 +18,19 @@ A shared engineering mentor pack for Claude Code and Codex.
 Examples:
 
 ```text
-/mentor Next.js에서 Spring API 호출이 느린데 어디부터 봐야 해?
+/mentor Where should I start if calling a Spring API from Next.js is slow?
 ```
 
 Routes to FE + BE, and may add Infra if the deployment/network boundary matters.
 
 ```text
-/mentor Spring 서버를 Kubernetes에 배포했는데 502가 간헐적으로 나
+/mentor My Spring server is running on Kubernetes, but I'm getting intermittent 502 errors.
 ```
 
 Routes mainly to BE + Infra.
 
 ```text
-/mentor 백엔드 개발자 관점에서 CI/CD를 공부하고 싶어
+/mentor I want to learn CI/CD from a backend developer's perspective.
 ```
 
 Uses BE as the primary perspective and Infra as a supporting perspective.

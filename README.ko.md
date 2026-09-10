@@ -57,11 +57,3 @@ npx skills add https://github.com/JeYeongR/engineering-mentor-skills --skill inf
 ```bash
 npx skills update
 ```
-
-
-## Hooks와 MCP
-
-`docs/HOOKS_MCP.md`를 참고하세요.
-
-기본 설계에서는 Hooks나 별도의 MCP 서버를 필수로 요구하지 않습니다.
-Skill은 멘토링 동작을 담당하고, Hooks는 lifecycle/safety 자동화를 담당하며, MCP는 외부 근거와 도구를 사용할 때 활용합니다.
