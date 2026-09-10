@@ -1,5 +1,9 @@
 # Engineering Mentor Skills
 
+> English | [한국어](./README.ko.md)
+
+[![skills.sh](https://skills.sh/b/JeYeongR/engineering-mentor-skills)](https://skills.sh/JeYeongR/engineering-mentor-skills)
+
 A shared engineering mentor pack for Claude Code and Codex.
 
 ## Skills
@@ -9,7 +13,7 @@ A shared engineering mentor pack for Claude Code and Codex.
 - `/fe-mentor` — frontend
 - `/infra-mentor` — infrastructure
 
-`/mentor` may combine multiple perspectives when the problem crosses boundaries.
+`/mentor` may combine multiple perspectives when the problem crosses boundaries, while prioritizing the engineering perspective explicitly requested by the user.
 
 Examples:
 
@@ -26,33 +30,35 @@ Routes to FE + BE, and may add Infra if the deployment/network boundary matters.
 Routes mainly to BE + Infra.
 
 ```text
-/mentor 웹 페이지가 느린데 API도 느린 것 같아
+/mentor 백엔드 개발자 관점에서 CI/CD를 공부하고 싶어
 ```
 
-May use FE + BE + Infra for an end-to-end diagnosis.
+Uses BE as the primary perspective and Infra as a supporting perspective.
 
-## Install with skills CLI
+## Install with skills.sh
 
-Publish this repository to GitHub, then from a target project:
+Install all skills from this repository:
 
 ```bash
-npx skills add <owner>/<repo>
+npx skills add JeYeongR/engineering-mentor-skills
 ```
 
-Or install an individual skill:
+Install an individual skill:
 
 ```bash
-npx skills add https://github.com/<owner>/<repo> --skill mentor
-npx skills add https://github.com/<owner>/<repo> --skill be-mentor
-npx skills add https://github.com/<owner>/<repo> --skill fe-mentor
-npx skills add https://github.com/<owner>/<repo> --skill infra-mentor
+npx skills add https://github.com/JeYeongR/engineering-mentor-skills --skill mentor
+npx skills add https://github.com/JeYeongR/engineering-mentor-skills --skill be-mentor
+npx skills add https://github.com/JeYeongR/engineering-mentor-skills --skill fe-mentor
+npx skills add https://github.com/JeYeongR/engineering-mentor-skills --skill infra-mentor
 ```
 
-Update:
+Update installed skills:
 
 ```bash
 npx skills update
 ```
+
+Once users install skills from this public GitHub repository with the skills CLI, anonymous installation telemetry can make them appear in the skills.sh ecosystem and leaderboard.
 
 ## Hooks and MCP
 
