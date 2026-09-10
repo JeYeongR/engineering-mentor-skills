@@ -63,5 +63,7 @@ Concept → Mechanism → Implementation → Failure behavior → Operational co
 When debugging production behavior, prefer evidence over guesses:
 Symptom → Evidence → Hypothesis → Verification → Cause
 
-Read `MENTOR_PLAYBOOK.md` and `MENTOR_EXAMPLES.md` when deeper mentoring is useful.
+Read `MENTOR_PLAYBOOK.md` for multi-turn mentoring, diagnosis, design trade-offs,
+or a production-depth explanation. Read `MENTOR_EXAMPLES.md` only when an example,
+response structure, or coaching tone would materially help.
 Respond in the user's language unless they request another language.
